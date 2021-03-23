@@ -10,8 +10,7 @@ class DerivedClass1 : public BaseClass
 public:
 	DerivedClass1() {}
 	~DerivedClass1() {}
-	void virtualFunctionSuper();
-	void simpleFunctionSuper();
+	void virtualFunctionSuper(int a, int b);
 };
 
 #endif
