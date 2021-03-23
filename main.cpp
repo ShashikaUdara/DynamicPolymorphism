@@ -28,6 +28,9 @@ int main()
 	base = &d2;
 	base->virtualFunctionSuper(50, 30);
 
+	// non virtual methods can't make dynamically polymorphic
+	// If you do so, the result will be wrong.
+	// Here in this example, you ar not getting 60 (multiplication) but 23 (the sum)
 	base = &d3;
 	base->simpleFunctionSuper(20, 3);
 

@@ -11,6 +11,7 @@ class DerivedClass3 : public BaseClass
 public:
 	DerivedClass3() {}
 	~DerivedClass3() {}
+	void virtualFunctionSuper(int a, int b) {}
 	void simpleFunctionSuper(int a, int b);
 };
 
