@@ -16,11 +16,7 @@ public:
 	virtual void virtualFunctionSuper(int a, int b) = 0;
 
 	// This is the normal (non vertual) super class function
-	void simpleFunctionSuper();
-
-protected:
-	int num;
-	string strSuper;
+	void simpleFunctionSuper(int a, int b);
 };
 
 #endif

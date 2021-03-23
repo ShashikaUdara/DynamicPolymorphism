@@ -2,6 +2,7 @@
 #define DERIVEDCLASS2_H
 
 #include <iostream>
+#include "BaseClass.h"
 
 using namespace std;
 
